@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Datasets and heavy binary files
+data/*
+!data/.gitkeep
+
+# Output checkpoints, samples, and logs
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
