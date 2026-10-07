@@ -153,6 +153,7 @@ def resolve_data_dir(data_dir: Path) -> Path:
     else:
         candidates.append((Path.cwd() / data_dir).resolve())
         candidates.append((PROJECT_ROOT / data_dir).resolve())
+        candidates.append((PROJECT_ROOT / "data" / "celeba_mock").resolve())
         candidates.append((PROJECT_ROOT.parent / data_dir).resolve())
 
         parts = data_dir.parts
